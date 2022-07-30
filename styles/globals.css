@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    font-family: "Lora", serif;
+  }
+}
+
+li {
+  @apply cursor-pointer;
+}
+h1,
+h2,
+h3,
+h4 {
+  @apply font-bold;
+}
